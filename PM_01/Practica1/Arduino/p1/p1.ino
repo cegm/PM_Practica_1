@@ -13,7 +13,7 @@ void loop() {
   float a_input = analogRead(pinIn);
   float voltage = a_input * (100.0 / 1023.0); //Convert the analogic read into a voltage value.
 
-  Serial.print("Luminosity: ");
+  Serial.print("Darkness: ");
   Serial.print(voltage);
   Serial.println(" %");
 
@@ -32,6 +32,6 @@ void loop() {
     digitalWrite(pinOut, LOW);
   }
 
-  delay(500);
+  delay(1000);
   
 }
