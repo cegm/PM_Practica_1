@@ -1,0 +1,8 @@
+prefix=/home/robotica/catkin_ws/devel
+
+Name: Practica5
+Description: Description of Practica5
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/robotica/catkin_ws/devel/lib 
+Requires: 
